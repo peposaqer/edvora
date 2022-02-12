@@ -1,6 +1,5 @@
 body {
   background-color: #292929;
-  /* font-family: SF Pro Display; */
 }
 
 .home {
@@ -10,7 +9,6 @@ body {
 
 .swiper {
   width: 100%;
-  /* position: unset !important;  */
   border-radius: 15px;
   margin-bottom: 3rem;
 }
@@ -68,14 +66,16 @@ body {
   margin-bottom: .8rem;
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
   display: none;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   color: #FFF !important;
-  /* position: relative !important; */
 }
+
 .products h1 {
   font-style: normal;
   font-weight: bold;
@@ -122,7 +122,7 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 5px;
-  margin-right: .4rem;
+  margin-right: 20px;
 }
 
 .SwiperSlide h1 {
@@ -150,6 +150,7 @@ body {
 .SwiperSlide h3 span {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
+  width: 60%;
 }
 
 .img {
@@ -161,10 +162,16 @@ body {
   background-color: transparent;
 }
 
-/* .swiper-button-next {
-  right: 4rem !important;
+.dropdown-menu.show {
+  padding: 1rem;
 }
 
-.swiper-button-prev {
-  left: 22rem !important;
-} */
+.dropdown-menu.show li a {
+  color: #131313;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.dropdown-menu.show li a:hover {
+  color: red;
+}
